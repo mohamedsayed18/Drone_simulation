@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="vehicle" default="iris"/>
+    <arg name="sdf" default="$(find mavlink_sitl_gazebo)/models/iris_fpv_cam/iris_fpv_cam.sdf"/>
+
+    <include file="$(find px4)/launch/mavros_posix_sitl.launch">
+        <arg name="respawn_gazebo" value="true"/>
+        <arg name="respawn_mavros" value="true"/>
+        <arg name="vehicle" value="$(arg vehicle)"/>
+        <arg name="sdf" value="$(arg sdf)"/>
+        <arg name="verbose" value="true"/>
+    </include>
+</launch>

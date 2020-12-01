@@ -52,8 +52,12 @@
 
 
   <!-- The export tag contains other, unspecified, tags -->
-  <export>
+
     <!-- Other tools can request additional information be placed here -->
 
+  
+  <export>
+    <gazebo_ros gazebo_model_path="/media/mohamed/C03CCDB43CCDA62E/tutorials/Innopolis/Year_2/Project/drone_ws/src/basics/models"/>
+    <gazebo_ros gazebo_media_path="/media/mohamed/C03CCDB43CCDA62E/tutorials/Innopolis/Year_2/Project/drone_ws/src/basics/models"/>
   </export>
 </package>

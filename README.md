@@ -1,19 +1,21 @@
 # Drone_simulation
 Drone simulation using ROS, Gazebo and PX4
 
-# Using this repo
+Drone landing on an AR marker
 
-Add the package to your work space and `catkin_make`
+## Using this repo
 
-## Launch the Iris_fpv_model
+Add the package to your work space and `catkin_make`.
 
-`roslaunch basics mylaunch.launch`
+Don't forget to set the environment variables
 
-to show images in rviz
+### Launch the simulation world
 
-open rviz by typing `rviz`
+`roslaunch basics AR_detect.launch`
 
-then Add->By topic->/image_raw/image
+### Run the node
+
+`rosrun basics arming.py`
 
 ## Environment variables
 

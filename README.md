@@ -17,6 +17,8 @@ Don't forget to set the environment variables
 
 `rosrun basics arming.py`
 
+Make sure this file is executable `chmod +x arming.py` 
+
 ## Environment variables
 
 ```

@@ -3,6 +3,8 @@ Drone simulation using ROS, Gazebo and PX4
 
 Drone landing on an AR marker
 
+![drone_landing](drone_landing.gif)
+
 ## Using this repo
 
 Add the package to your work space and `catkin_make`.
